@@ -1,0 +1,16 @@
+[
+{
+  "modid": "testmod",
+  "name": "Testing Minecraft",
+  "description": "Yolo",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["kendogggy"],
+  "credits": "The Forge and FML guys, Morethanhidden",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
