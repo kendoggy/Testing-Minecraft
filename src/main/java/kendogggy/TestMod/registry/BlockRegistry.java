@@ -1,7 +1,10 @@
 package kendogggy.TestMod.registry;
 
 /**
- * Created by kenny on 23/12/2016.
+ * Project: Testing-Minecraft
+ * Package: ${PACKAGE_NAME}
+ * Created By: Kendogggy
+ * DATE: 23/12/2016
  */
 public class BlockRegistry {
 }

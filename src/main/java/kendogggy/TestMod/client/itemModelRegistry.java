@@ -15,6 +15,9 @@ public class itemModelRegistry {
     public static void init()
     {
         ModelHelper.registerItemModel(ItemRegistry.OPPick,0);
+        ModelHelper.registerItemModel(ItemRegistry.OPIngot,0);
         MinecraftForge.EVENT_BUS.register(new BlockModelResolver());
+
+
     }
 }
