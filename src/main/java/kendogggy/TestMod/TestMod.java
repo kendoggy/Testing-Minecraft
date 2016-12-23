@@ -1,6 +1,7 @@
 package kendogggy.TestMod;
 
 import kendogggy.TestMod.proxy.common;
+import kendogggy.TestMod.registry.BlockRegistry;
 import kendogggy.TestMod.registry.ItemRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -32,6 +33,7 @@ public class TestMod
     public void preinit(FMLPreInitializationEvent event)
     {
         ItemRegistry.init();
+        BlockRegistry.init();
         proxy.registerRenderers();
     }
 
